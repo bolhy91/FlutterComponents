@@ -41,7 +41,17 @@ class AppRoutes {
         route: 'formScreen',
         icon: Icons.format_align_justify,
         name: 'Form Screen',
-        screen: const FormScreen())
+        screen: const FormScreen()),
+    MenuOption(
+        route: 'sliderScreen',
+        icon: Icons.slideshow,
+        name: 'Slider Screen',
+        screen: const SliderScreen()),
+    MenuOption(
+        route: 'builder',
+        icon: Icons.list_alt_outlined,
+        name: 'ListView Builder',
+        screen: const ListviewBuilderScreen())
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
